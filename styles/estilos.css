@@ -135,6 +135,7 @@ img {
 @media(min-width:768px) {
     .contenedor-principal{
         display: grid;
-        grid-template-columns: repeat(2, 40% 60%);
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
     }
 }
