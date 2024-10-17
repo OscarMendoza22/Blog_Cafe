@@ -100,6 +100,10 @@ img {
     }
 }
 
+.barra{
+    padding-top: 2rem;
+}
+
 @media(min-width:768px) {
     .barra {
         display: flex;
@@ -184,4 +188,36 @@ img {
     list-style: none;
 }
 
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
 
+.widget-curso:last-of-type{
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.widget-curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.widget-curso__label, .widget-curso__info{
+    font-size: 2rem;
+}
+
+.footercolor{
+    background-color: var(--negro);
+    padding: 3rem;
+    margin-top: 6rem;
+}
+
+.sobre-nosostros_imagen{
+    display: flex;
+    flex-direction: row;
+}
