@@ -217,7 +217,27 @@ img {
     margin-top: 6rem;
 }
 
-.sobre-nosostros_imagen{
-    display: flex;
-    flex-direction: row;
+@media (min-width:768px) {
+    .sobre-nosostros{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 2rem;
+    }
+}
+
+@media (min-width:768px) {
+    .cusos-talleres{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    }
+}
+
+.cusos-talleres{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+.cusos-talleres:last-of-type{
+    border-bottom: none;
 }
