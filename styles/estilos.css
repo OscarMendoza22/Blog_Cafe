@@ -169,6 +169,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+    border: none;
 }
 
 @media (min-width:768px) {
@@ -177,6 +178,9 @@ img {
     }
 }
 
+.boton:hover{
+    cursor: pointer;
+}
 .boton--primario{
     background-color: var(--negro);
 }
@@ -265,14 +269,17 @@ img {
 .campo{
     display: flex;
     margin-bottom: 2rem;
+    gap: 2rem;
 }
 
 .campo__label{
     flex: 0 0 9rem;
+    text-align: end;
 }
 
 .campo__field{
     flex: 1;
+    border: 1px solid var(--gris)
 }
 
 .campo__field--textarea {
